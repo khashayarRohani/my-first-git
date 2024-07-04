@@ -145,6 +145,18 @@ nav {
   overflow: hidden;
   transition: transform 0.3s;
 }
+.middleSection div {
+  display: flex;
+  flex-direction: column;
+}
+.middleSection address {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.middleSection a {
+  color: wheat;
+}
 .lastSection {
   display: flex;
   flex-direction: column;
@@ -183,7 +195,9 @@ nav {
 .middleSection div p:hover {
   transform: scale(1.5);
 }
-
+.middleSection address a:hover {
+  transform: scale(1.5);
+}
 .lastSection p:hover {
   transform: scale(1.8);
 }
