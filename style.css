@@ -111,7 +111,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 60px;
   border: solid black 1px;
   border-radius: 20px;
   width: 50%;
